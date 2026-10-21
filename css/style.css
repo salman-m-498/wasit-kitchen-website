@@ -658,7 +658,7 @@ h1, h2, h3, h4 {
   .cat-section__layout { grid-template-columns: 1fr; gap: 28px; }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1080px) {
   .nav {
     position: absolute;
     top: var(--header-h);
