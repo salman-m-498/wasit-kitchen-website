@@ -680,7 +680,7 @@ h1, h2, h3, h4 {
 
   .nav-toggle { display: block; }
 
-  .header__cta .btn--outline { display: none; }
+  .header__cta { display: none; }
 
   .about-grid,
   .clients-grid { grid-template-columns: 1fr; gap: 44px; }
@@ -708,7 +708,6 @@ h1, h2, h3, h4 {
   .brand-tools input { min-width: 100%; }
 
   .header__inner { gap: 14px; }
-  .header__cta { display: none; }
   .brand img { height: 40px; }
   .brand__name { font-size: 13px; }
   .brand__name small { font-size: 10px; }
