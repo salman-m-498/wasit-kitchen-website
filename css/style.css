@@ -25,6 +25,7 @@ body {
   line-height: 1.65;
   font-size: 17px;
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
 }
 
 img { max-width: 100%; display: block; }
@@ -681,6 +682,8 @@ h1, h2, h3, h4 {
 
   .nav-toggle { display: block; }
 
+  .hero__bar { display: none; }
+
   .header__cta .btn--outline { display: none; }
 
   .about-grid,
@@ -707,4 +710,20 @@ h1, h2, h3, h4 {
   .footer-grid { grid-template-columns: 1fr; }
   .hero__inner { padding: 84px 0 70px; }
   .brand-tools input { min-width: 100%; }
+
+  .header__inner { gap: 14px; }
+  .header__cta { display: none; }
+  .brand img { height: 40px; }
+  .brand__name { font-size: 13px; }
+  .brand__name small { font-size: 10px; }
+
+  .hero__trust li { padding: 20px 12px; }
+  .hero__trust span { font-size: 12px; }
+
+  .chip { padding: 12px 15px; }
+
+  .loc-card,
+  .contact-card { padding: 24px 20px; }
+
+  #map { height: 360px; }
 }
