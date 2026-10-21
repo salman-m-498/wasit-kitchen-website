@@ -208,8 +208,6 @@ h1, h2, h3, h4 {
   clip-path: polygon(0 0, 100% 0, 62% 100%, 0 100%);
 }
 
-.hero__bar { position: absolute; top: 64px; left: 0; width: min(360px, 40vw); height: 54px; background: var(--gold); }
-
 .hero__inner { position: relative; padding: 118px 0 96px; max-width: 760px; }
 
 .hero--short .hero__inner { padding: 92px 0 84px; }
@@ -681,8 +679,6 @@ h1, h2, h3, h4 {
   .nav a[aria-current="page"] { border-bottom-color: var(--line); color: var(--gold-dark); }
 
   .nav-toggle { display: block; }
-
-  .hero__bar { display: none; }
 
   .header__cta .btn--outline { display: none; }
 
